@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+:root {
+    --font-sans: 'Orbitron', 'Rajdhani', 'Instrument Sans', sans-serif;
+
+    --color-primary: #22d3ee;
+    --color-secondary: #ec4899;
+    --color-accent: #a855f7;
+    --color-bg-dark: #020617;
+    --color-card: #111827;
+}
+
+body {
+    font-family: var(--font-sans);
+    background-color: var(--color-bg-dark);
+    color: white;
+}

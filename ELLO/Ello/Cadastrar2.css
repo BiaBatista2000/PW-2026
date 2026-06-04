@@ -1,0 +1,79 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #f5f5ff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header e Footer */
+  header, footer {
+    background-color: #c3badc;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    font-size: 0.8em;
+    color: #555;
+  }
+  
+  /* Conteúdo Central */
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Caixa principal */
+  .login-box {
+    background: linear-gradient(#d0c3e6, #c6bee0);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ccc;
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Título */
+  .login-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Botão */
+  button {
+    padding: 10px 20px;
+    background-color: #797397;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgb(184, 145, 184);
+  }
+  
+  img {
+    max-width: 70%;
+    height: auto;
+  }
+  
+  .img-two {
+    max-width: 10%;
+    height: auto;
+  }
+  
+  
