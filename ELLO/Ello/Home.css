@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0effd;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #b7a9d1;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.home-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.welcome-box {
+  background-color: #d3c6ec;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  width: 100%;
+  margin: 20px;
+}
+
+.welcome-box h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.welcome-box p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.botao {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 4px 35px;
+  background-color: #8d7bbf;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+  font-size: 20px;
+}
+
+.botao-dois {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 4.5px 20px;
+  background-color: #8d7bbf;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.botao-dois:hover {
+  background-color: rgb(184, 145, 184);
+}
+
+.botao:hover {
+  background-color: rgb(184, 145, 184);
+}
+
+footer {
+  background-color: #b7a9d1; /* mesma cor do header */
+  color: #555;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  font-weight: 400;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  margin: 0;
+  color: #555;
+  font-size: 15px;
+}
+
+img {
+  max-width: 10%;
+  height: auto;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 40px 20px;
+  background-color: #f0effd;
+  flex-wrap: wrap;
+}
+
+.feature {
+  text-align: center;
+  max-width: 200px;
+}
+
+.feature img {
+  height: 100px;
+  margin-bottom: 80px;
+  transform: scale(2); /* Aumenta 20% */
+  transform: scaleX(6);
+}
+
+.feature h3 {
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}

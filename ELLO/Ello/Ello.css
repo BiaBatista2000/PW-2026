@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f5f5ff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  background-color: #c3badc;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+header .hexagon {
+  font-size: 16px;
+  color: #9d8abf;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: linear-gradient(#d0c3e6, #c6bee0);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+  width: 300px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.password-field {
+  position: relative;
+}
+
+.toggle-eye {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.register-link {
+  font-size: 0.9em;
+  margin: 10px 0;
+}
+
+.register-link a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.register-link a:hover {
+  color: rgb(112, 74, 112);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #797397;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: rgb(184, 145, 184);
+}
+
+footer p {
+  font-size: 0.8em;
+  color: #555;
+}
+
+img {
+  max-width: 130px;
+  height: auto;
+}
