@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f4f5f7;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 260px;
+    background: #fff;
+    padding: 25px;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.logo-icon {
+    font-size: 32px;
+    color: #f4b400;
+}
+
+.logo-text h2 {
+    font-size: 12px;
+    color: #555;
+}
+
+.logo-text span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #555;
+    padding: 12px 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.menu li.active a,
+.menu a:hover {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.sidebar-footer {
+    color: #777;
+    font-size: 13px;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+.top-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.notificacao {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2e7d32;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+.categorias-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.categorias-header h1 {
+    font-size: 28px;
+    color: #222;
+}
+
+.categorias-header p {
+    color: #777;
+    margin-top: 5px;
+}
+
+.btn-nova {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.btn-nova:hover {
+    background: #256428;
+}
+
+.card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 3px 12px rgba(0,0,0,.06);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    text-align: left;
+    padding: 12px;
+    color: #777;
+    border-bottom: 1px solid #eee;
+}
+
+.table td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #eee;
+    color: #444;
+}
+
+.categoria-nome {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    color: #2e7d32;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    color: #2e7d32;
+    cursor: pointer;
+}
