@@ -2,15 +2,15 @@
 
 <div align="center">
   
-<img src="https://capsule-render.vercel.app/api?type=cylinder&height=100&color=EFC77A&text=PAM2026&reversal=true&textBg=false&fontColor=fff&fontSize=40" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&height=100&color=EFC77A&text=PW2026&reversal=true&textBg=false&fontColor=fff&fontSize=40" />
 
 </div>
 <h3 align="center">
-  Atividade de 2026 da matéria do curso de Programação de Aplicativos Mobiles.
+  Atividade de 2026 da matéria do curso de Programação Web.
 </h3>
 <br/> <div align="center">
   
-# Telas do Projeto - Inventário
+# Telas do Site - Distribuição de Energia Solar
 <p align="center">
   <img src="./Img/Subly-Telas.gif" width="300px">
 </p>
