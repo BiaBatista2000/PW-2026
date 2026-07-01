@@ -17,15 +17,15 @@
 
 | Tela Inicial | Tela de Login | Tela de Categorias |
 |------------------|--------------------------|-------------------------|
-| <img src="IMG/Inicial.jpeg" width="200px"> | <img src="IMG/Login.jpeg" width="200px"> | <img src="IMG/Categorias.jpeg" width="200px"> |
+| <img src="IMG/Inicial.png" width="200px"> | <img src="IMG/Login.png" width="200px"> | <img src="IMG/Categorias.png" width="200px"> |
 <br/>
 
 | Tela de Relatórios | Tela de Movimentações | Tela de Itens |
 |------------------|--------------------------|-------------------------|
-| <img src="IMG/Relatorios.jpeg" width="200px"> | <img src="IMG/Movimentacao.jpeg" width="200px"> | <img src="IMG/Itens.jpeg" width="200px"> |
+| <img src="IMG/Relatorios.png" width="200px"> | <img src="IMG/Movimentacoes.png" width="200px"> | <img src="IMG/Itens.png" width="200px"> |
 
 | Tela Clientes | Tela de Notificação | Tela de Configurações |
 |------------------|--------------------------|-------------------------|
-| <img src="IMG/Clientes.jpeg" width="200px"> | <img src="IMG/Notificacao.jpeg" width="200px"> | <img src="IMG/Configuracao.jpeg" width="200px"> |
+| <img src="IMG/Clientes.png" width="200px"> | <img src="IMG/Notificacao.png" width="200px"> | <img src="IMG/Configuracoes.png" width="200px"> |
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=EFC77A&section=footer" width="100%" style="display:block; margin:0;">
