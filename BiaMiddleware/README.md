@@ -20,4 +20,9 @@
 | <img src="IMG/Negado.jpeg" width="200px"> | <img src="IMG/Permitido.jpeg" width="200px"> |
 <br/>
 
+| Vídeo Demonstrativo |
+|------------------|
+| <img src="IMG/BiaMiddleware.mp4" width="200px"> |
+<br/>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=EFC77A&section=footer" width="100%" style="display:block; margin:0;">
