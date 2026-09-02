@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #eef2f7, #f7f9fc);
+    padding: 40px;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.title i {
+    font-size: 28px;
+    color: #f5b335;
+}
+
+.title h1 {
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: 700;
+}
+
+.btn-voltar {
+    text-decoration: none;
+    background: linear-gradient(135deg, #f5b335, #ffcc66);
+    color: #1f1f1f;
+    padding: 12px 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: 0.3s;
+    box-shadow: 0 6px 15px rgba(245, 179, 53, 0.25);
+}
+
+.btn-voltar:hover {
+    transform: translateY(-2px);
+}
+
+.notificacao {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    padding: 18px 20px;
+    border-radius: 18px;
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+    cursor: pointer;
+
+    transition: all 0.25s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.notificacao:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.10);
+}
+
+.icone {
+    width: 55px;
+    height: 55px;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+}
+
+.nova .icone {
+    background: #e9f8ef;
+    color: #2ecc71;
+}
+
+.alerta .icone {
+    background: #fff4e5;
+    color: #f39c12;
+}
+
+.pedido .icone {
+    background: #e8f0ff;
+    color: #3498db;
+}
+
+.conteudo {
+    flex: 1;
+}
+
+.conteudo h3 {
+    font-size: 16px;
+    color: #1f2937;
+    margin-bottom: 4px;
+}
+
+.conteudo p {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 4px;
+}
+
+.conteudo span {
+    font-size: 12px;
+    color: #9ca3af;
+}
+
+.badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 999px;
+    text-transform: uppercase;
+}
+
+.badge.nova {
+    background: #2ecc71;
+    color: white;
+}
+
+.badge.alerta {
+    background: #f39c12;
+    color: white;
+}
+
+.badge.pedido {
+    background: #3498db;
+    color: white;
+}
+
+.sem-notificacoes {
+    background: white;
+    padding: 60px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    animation: fadeIn 0.4s ease;
+}
+
+.sem-notificacoes i {
+    font-size: 60px;
+    color: #9ca3af;
+    margin-bottom: 10px;
+}
+
+.sem-notificacoes h2 {
+    color: #1f2937;
+    margin-bottom: 5px;
+}
+
+.sem-notificacoes p {
+    color: #6b7280;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media(max-width: 768px) {
+    body { padding: 20px; }
+
+    .header {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .notificacao {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .badge {
+        position: static;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f5f7;
+}
+
+.container{
+    display:flex;
+    min-height:100vh;
+}
+
+.sidebar{
+    width:260px;
+    background:#fff;
+    padding:25px;
+    border-right:1px solid #e5e5e5;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:30px;
+}
+
+.logo-icon{
+    font-size:32px;
+    color:#f4b400;
+}
+
+.logo-text h2{
+    font-size:12px;
+    color:#555;
+}
+
+.logo-text span{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.menu{
+    list-style:none;
+}
+
+.menu li{
+    margin-bottom:10px;
+}
+
+.menu a{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+    color:#555;
+    padding:12px 15px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.menu li.active a,
+.menu a:hover{
+    background:#e8f5e9;
+    color:#2e7d32;
+}
+
+.sidebar-footer{
+    text-align:center;
+    color:#777;
+    font-size:13px;
+}
+
+.content{
+    flex:1;
+    padding:30px;
+}
+
+.config-header{
+    margin-bottom:30px;
+}
+
+.config-header h1{
+    color:#222;
+    margin-bottom:8px;
+}
+
+.config-header p{
+    color:#777;
+}
+
+.config-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+
+.card h3{
+    color:#333;
+    margin-bottom:25px;
+}
+
+.card h3 i{
+    color:#2e7d32;
+}
+
+.campo{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:18px;
+}
+
+.campo label{
+    margin-bottom:8px;
+    color:#555;
+}
+
+.campo input,
+.campo select{
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    outline:none;
+}
+
+.opcao{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 0;
+    border-bottom:1px solid #eee;
+}
+
+.acoes{
+    margin-top:30px;
+}
+
+.btn-salvar{
+    background:#2e7d32;
+    color:#fff;
+    border:none;
+    padding:14px 24px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.btn-salvar:hover{
+    background:#256428;
+}
+
+@media(max-width:900px){
+
+    .config-grid{
+        grid-template-columns:1fr;
+    }
+
+    .sidebar{
+        width:100%;
+    }
+
+    .container{
+        flex-direction:column;
+    }
+}
